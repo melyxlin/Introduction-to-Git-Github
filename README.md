@@ -21,7 +21,7 @@ A tutorial/repository for my Introduction to Git/Github workshop for the Spark! 
 1. Go ahead and add a new file to the project via your favorite text editor or the `touch` command.
 2. After creating the file, type `git status` to see which files git knows exist.
     - `git status` Asks Git to show you the status of your modified files (how many of them are staged vs. unstaged). This is an optional step.
-3. To add a file to a commit, you first need to add it to the staging environment by typing `git add <filename>` or or `git add *`
+3. To add a file to a commit, you first need to add it to the staging environment by typing `git add <filename>` or `git add *` (to upload all modified files"
     - If you rerun `git status`, you'll see that git has added the file to the staging environment
 4.  To create your first commit, type `git commit -m "message about the commit here"
     - The message at the end of the commit should be something related to what the commit contains. MAKE SURE THAT THE MESSAGE IS MEANINGFUL!
