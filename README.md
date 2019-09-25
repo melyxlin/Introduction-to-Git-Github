@@ -6,18 +6,18 @@ A tutorial/repository for my Introduction to Git/Github workshop for the Spark! 
 *Mingle and get into groups of 2+ people. You will do the next steps in groups.*
 - Download and install Git [here](https://git-scm.com/)
 - Create a GitHub account
-### Step 1: Create a local git repository
-- When creating a new project on your local machine using git, you'll first create a new repository (a.k.a. *repo*). 
-  - This will be done via terminal
-1. One member of the team: open up a terminal and move to where you want to place the project on your local machine.
-2. To initalize a new local git repository:
-```
-$ git init
-```
-### Step 2: Creating a new repository on GitHub
+### Step 1: Creating a new repository on GitHub
 - If you only want to keep track of your code locally, you don't need to use GitHub. But if you want to work with a team, you can use GitHub to collaborate on the project.
 1. To create a new repo on GitHub, log in and go to the GitHub home page. You should see a green '+ New repository' button. After clicking the button, fill out the information in boxes and click 'Create Repository' when you are finished
 2. GitHub will ask if you want to create a new repo from scratch or if you want to add a repo you have created locally. Since we've already created a new repo locally, we want to push that onto GitHub so follow the '....or push an existing repository from the command line' instructions. 
+### Step 2: Cloning the repository
+1. Under the repository name, click on button that says **Clone or Download**. 
+2. In the **Clone with HTTPs section**, click  to copy the clone URL for the repository.
+3. Open Terminal and change to the location where you want the cloned directory to be made.
+4. Type `git clone` and then paste the URL you copied. The command should look like this:
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
 ### Step 3: Adding and commiting a new file to the repo
 - Before we begin, here is a few concepts that you need to know:
   - Once you've added or modified files in a folder containing a git repo, git will notice that changes have been made inside the repo. But, git won't officially keep track of the file, unless explicitly told to (i.e. a commit)
@@ -49,15 +49,8 @@ $ git push origin [name_of_your_new_branch]
     - If this is your first time using GitHub locally, it might prompt you to log in with your GitHub username and password.
 2. If you refresh the GitHub page, you'll see note saying a branch with your name has just been pushed into the repository. Congratulations, you have just pushed your code!
 ## What next?
-### Step 5: Clone the repo
-1. For the other people in the group, go to the main page of the repository. Under the repository name, click on button that says **Clone or Download**. 
-2. In the **Clone with HTTPs section**, click  to copy the clone URL for the repository.
-3. Open Terminal and change to the location where you want the cloned directory to be made.
-4. Type `git clone` and then paste the URL you copied. The command should look like this:
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-```
-5. Congratulations you have just created a new branch!
+### Step 5: Clone the repository (again)
+1. For the other people in the group, go to the main page of the repository and follow step 1 to clone the repository.
 ### Step 6: Create a branch
 1. Before creating a new branch, **ALWAYS PULL** the changes from upstream. Your master on your local branch needs to be up to date.
 2. Create the branch on your local machine and switch in this branch :
