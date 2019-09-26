@@ -1,6 +1,8 @@
 # Introduction-to-Git-Github
 A tutorial/repository for my Introduction to Git/Github workshop for the Spark! Freshmen Mini-Hack and MakeBU
 ## So...what is Git/Github and why should we use it?
+- Presentation: https://docs.google.com/presentation/d/1dzt_jlaK71rOgcexW7Eh1M1N9cXP0PYB3K90Mv_pFOc/edit?usp=sharing
+- Animation: 
 ## Initializing GitHub
 ### Step 0: Set up Git and GitHub
 *Mingle and get into groups of 2+ people. You will do the next steps in groups.*
@@ -72,7 +74,12 @@ $ git push origin [name_of_your_new_branch]
 - Github has this check were if tells if a branch is okay to merge. 
 5. Once it checks, go ahead on click on **Merge pull request**. You will now see that the code from your branch is added on to the master branch
 ## Done!
+### MORE RESOURCES
+- Git Cheatsheet: http://ndpsoftware.com/git-cheatsheet.html#loc=index
+- Git Playlist: https://open.spotify.com/playlist/0MJBni0UzdnML1amikx0Rc?si=NlBOzomuQi2pkjzf3SngoA
+- Animations: https://onlywei.github.io/explain-git-with-d3/
 
+![Alt Text](https://media.giphy.com/media/xULW8v7LtZrgcaGvC0/giphy.gif)
 
 
 
