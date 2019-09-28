@@ -1,4 +1,4 @@
-# Introduction-to-Git-Github
+# Introduction to Git/Github
 A tutorial/repository for my Introduction to Git/Github workshop for the Spark! Freshmen Mini-Hack and MakeBU
 ## So...what is Git/Github and why should we use it?
 - Presentation: https://docs.google.com/presentation/d/1dzt_jlaK71rOgcexW7Eh1M1N9cXP0PYB3K90Mv_pFOc/edit?usp=sharing
