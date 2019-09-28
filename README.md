@@ -2,7 +2,6 @@
 A tutorial/repository for my Introduction to Git/Github workshop for the Spark! Freshmen Mini-Hack and MakeBU
 ## So...what is Git/Github and why should we use it?
 - Presentation: https://docs.google.com/presentation/d/1dzt_jlaK71rOgcexW7Eh1M1N9cXP0PYB3K90Mv_pFOc/edit?usp=sharing
-- Animation: 
 ## Initializing GitHub
 ### Step 0: Configuring Git and GitHub
 *Mingle and get into groups of 2+ people. You will do the next steps in groups.*
