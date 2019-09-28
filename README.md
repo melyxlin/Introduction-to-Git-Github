@@ -57,42 +57,21 @@ $ git push origin master
 ```
 -  **_What is "origin"?_** When you initialize a remote repository to your local machine, git creates an **alias** for you. In nearly all cases this alias is called "origin." It's essentially shorthand for the remote repository's URL. 
     - If this is your first time using GitHub locally, it might prompt you to log in with your GitHub username and password.
-2. If you refresh the GitHub page, you'll see note saying a branch with your name has just been pushed into the repository. Congratulations, you have just pushed your code!
-## What next?
-### Step 5: Cloning the repository
-Now suppose you are working on a project with another person, and they already have a github full of code already. How would you retrieve the code? By cloning! 
-1. Under the repository name, click on button that says **Clone or Download**. 
-2. In the **Clone with HTTPs section**, click  to copy the clone URL for the repository.
-3. Open Terminal and change to the location where you want the cloned directory to be made.
-4. Type `git clone` and then paste the URL you copied. The command should look like this:
+2. If you refresh the GitHub page, you'll see note saying a branch with your name has just been pushed into the repository. 
+### Step 6: Create a README
+A README is a file that describes the functionaity of the project, tech stack, etc. Its highly recommended that you create one so that people viewing your project can understand the intent and tech behind it. 
+1. On your github repository page, there will be an area that something like "initialize a README". Click on that button, and edit the text screen to say whatever you like. This is what your README will be. Then commit changes (and add a message while you are at it)
+### Step 7: Pulling the code
+So, now that you have a created a README file, you have a new file on your GitHub, but it is not on your local repository. 
+1. Go to the terminal and run
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git fetch origin master
 ```
-### Step 6: Create a branch
-When developing a new feature, it is considered a good practice to work on a copy of the original project, called a branch. Branches have their own history and isolate their changes from one another, until you decide to merge them back together. This is done for a couple of reasons:
-
-- An already working, stable version of the code won't be broken.
-- Many features can be safely developed at once by different people.
-- Developers can work on their own branch, without the risk of their codebase changing due to someone else's work.
-1. Before creating a new branch, **ALWAYS PULL** the changes from upstream. Your master on your local branch needs to be up to date.
-2. Create the branch on your local machine and switch in this branch :
+The run 
 ```
-$ git checkout -b [name_of_your_new_branch]
+$ git pull origin master
 ```
-3. Now to push the branch to GitHub:
-```
-$ git push origin [name_of_your_new_branch]
-```
-- When you want to commit something in your branch, be sure to be in your branch. 
-### Step 7: Push content to the repository
-1. Now go follow Step 2-4, but **REMEMBER** we are pushing to the **NEW BRANCH** not the `master`
-### Step 8: Open a pull request
-2. On GitHub, go to the main repository page and click on **New Pull Request**
-3. Change the **compare** button to the branch you wish to merge into master
-4. Enter a title and description for your pull request. Then click **Create Pull Request** You should now see an open pull request.
-- It is important that you do pull request rather than push to master. This is so that people can check over your code before putting in into the master branch and that none of your code will mess up the already written code.
-- Github has this check were if tells if a branch is okay to merge. 
-5. Once it checks, go ahead on click on **Merge pull request**. You will now see that the code from your branch is added on to the master branch
+This get the README from the project. Now you will have it in your own repository!
 ## Done!
 ### MORE RESOURCES
 - Git Cheatsheet: http://ndpsoftware.com/git-cheatsheet.html#loc=index
